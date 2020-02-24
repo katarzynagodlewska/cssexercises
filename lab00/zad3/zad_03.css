@@ -1,0 +1,22 @@
+body {
+    background-image: url(listki.gif);
+    background-repeat: repeat-y;
+}
+
+.tresc {
+    border-style:solid;
+    border-width: 2px;
+    background-color: transparent;
+    padding: 16px;
+    margin-left: 120px;
+    float: none;
+}
+
+p {
+    text-indent: 16px;
+    text-align: justify;
+}
+
+img {
+    float: left;
+}
