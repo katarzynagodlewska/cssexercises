@@ -1,0 +1,14 @@
+ul {
+    list-style-type: decimal;
+    color: red;
+}
+
+li > ul {
+    list-style-type: lower-latin;
+    color: green;
+}
+
+li > ul > li > ul {
+    list-style-type: disc;
+    color: blue;
+}
