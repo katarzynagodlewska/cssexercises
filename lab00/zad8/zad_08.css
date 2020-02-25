@@ -1,0 +1,25 @@
+
+.A {
+    position: relative;
+    bottom: 10px;
+    left: 24px;
+}
+
+.B {
+    position: relative;
+    bottom: 24px;
+    left: 24px;
+}
+
+.C {
+    position: relative;
+    left: 25%;
+    margin: 100px;
+    border-style: solid;
+    border-color: red;
+    background-color: moccasin;
+    border-width: 2px;
+    height: 32px;
+    width: 280px;
+    padding: 16px 8px 0px 0px;
+}
