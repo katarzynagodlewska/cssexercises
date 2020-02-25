@@ -1,0 +1,27 @@
+#menu {
+    position: relative;
+    border-style: outset;
+    background-color: rgb(248, 248, 248);
+    padding: 4px 32px 4px 32px;
+    text-align: center;
+}
+
+
+.el_menu {
+    border-style: outset;
+    border-width: 1px;
+}
+
+.el_menu :hover {
+    background-color: white;
+    box-shadow: 0px 0px 1px 1px darkgray inset;
+}
+
+.el_menu :link {
+    color: maroon;
+    text-decoration: none;
+}
+
+.el_menu :visited {
+    color: maroon;
+}
