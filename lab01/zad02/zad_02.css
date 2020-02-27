@@ -1,0 +1,35 @@
+#menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-style: outset;
+  background-color: #f8f8f8;
+  padding: 4px 32px 4px 32px;
+  text-align: center;
+}
+
+#tresc {
+  margin-top: 40px;
+}
+
+.el_menu {
+  border-style: outset;
+  border-width: 1px;
+}
+
+.el_menu :hover {
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 1px 1px darkgray inset;
+          box-shadow: 0px 0px 1px 1px darkgray inset;
+}
+
+.el_menu :link {
+  color: maroon;
+  text-decoration: none;
+}
+
+.el_menu :visited {
+  color: maroon;
+}
+/*# sourceMappingURL=zad_02.css.map */
