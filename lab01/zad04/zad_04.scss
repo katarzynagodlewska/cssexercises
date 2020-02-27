@@ -1,0 +1,62 @@
+@import "variables.scss";
+
+
+body {
+    background-color: lightgrey;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  #menu {
+    position: absolute;
+    width: 23%;
+    text-align: center;
+    top: 48px;
+    left: 0.5%;
+    padding: 0 8px 0 4px;
+  }
+  
+  #naglowek {
+    position: fixed;
+    border-bottom: solid black 1px;
+    left: 0;
+    top: 0;
+    height: 20px;
+    width: 50%;
+    padding: 2px 0 4px 20px;
+    background-color: $pumice;
+  }
+
+  #stopka {
+    position: fixed;
+    border-top: solid black 1px;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    height: 16px;
+    padding: 2px 0 4px 36px;
+    background-color: $pumice;
+  }
+
+  #tresc {
+    position: absolute;
+    top: 24px;
+    left: 25%;
+    display: block;
+    border-left: solid #A9ABA8;
+    padding: 16px 32px 32px 36px;
+  }
+  
+  .el_menu {
+    display: list-item;
+    list-style: none;
+    border: solid black 1px;
+    border-top-color: lightslategrey;
+    padding: 4px;
+    background-color: ghostwhite;
+    & :link {
+        color: maroon;
+        text-decoration: none;
+
+    }
+  }
